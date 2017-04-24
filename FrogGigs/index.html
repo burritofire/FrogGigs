@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>GIGS 4 FROGS</title>
+    <style media="screen">
+    img {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    }
+    .frogs {
+      top:0px;
+      left:0px;
+      position:absolute;
+      z-index:200;
+      width:230px;
+      height:200px;
+      background: url("images/froggy.png");
+    }
+    body {background-color:white;}
+    #site {
+      width:2000px;
+      height:1000px;
+      margin:0 auto;
+      position:relative;
+      overflow:hidden;
+    }
+
+    </style>
+  </head>
+  <body>
+    <h1>GO GIG A FROG!</h1>
+    <div class="container">
+      <div id="sketch">
+        <img src="images/gig.gif" class="follow" style="position: absolute;"/>
+      </div>
+      <div id="site">
+          <div id="frogZone"></div>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/gig.js"></script>
+
+  </body>
+</html>

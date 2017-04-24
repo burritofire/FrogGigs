@@ -1,0 +1,21 @@
+img {
+position: absolute;
+transform: translate(-50%, -50%);
+}
+.frogs {
+  top:0px;
+  left:0px;
+  position:absolute;
+  z-index:200;
+  width:230px;
+  height:200px;
+  background: url("froggy.jpeg");
+}
+body {background-color:white;}
+#site {
+  width:2000px;
+  height:1700px;
+  margin:0 auto;
+  position:relative;
+  overflow:hidden;
+}
